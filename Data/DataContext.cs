@@ -9,7 +9,7 @@ namespace Teste_DVP.Data
         {
         }
        
-        public DbSet<Users> LoginAuth { get; set; }
+        public DbSet<Users> Users { get; set; }
 
         public DbSet<Persons> Persons { get; set; }
 
